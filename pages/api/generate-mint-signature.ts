@@ -28,11 +28,11 @@ export default async function generateMintSignature(
   }
 
   // Now use the SDK on Goerli to get the signature drop
-  const goerliSDK = ThirdwebSDK.fromPrivateKey(
+  const rinkebySDK = ThirdwebSDK.fromPrivateKey(
     process.env.PRIVATE_KEY as string,
-    "goerli"
+    "rinkeby"
   );
-  const signatureDrop = goerliSDK.getSignatureDrop(
+  const signatureDrop = rinkebySDK.getSignatureDrop(
     "0x2A8747F697d241d011d384356134CC3aB0B38B97"
   );
 

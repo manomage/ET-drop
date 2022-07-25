@@ -29,7 +29,7 @@ const Home: NextPage = () => {
     }
 
     if (isMismatch) {
-      switchNetwork?.(ChainId.Goerli);
+      switchNetwork?.(ChainId.Rinkeby);
       return;
     }
 
@@ -48,7 +48,7 @@ const Home: NextPage = () => {
     }
 
     if (isMismatch) {
-      switchNetwork && switchNetwork(ChainId.Goerli);
+      switchNetwork && switchNetwork(ChainId.Rinkeby);
       return;
     }
 
