@@ -33,7 +33,7 @@ export default async function generateMintSignature(
     "goerli"
   );
   const signatureDrop = goerliSDK.getSignatureDrop(
-    "0xb90a18e9270d44F6e7D06e5Eac32C6Ea881CCaB2"
+    "0x2A8747F697d241d011d384356134CC3aB0B38B97"
   );
 
   // If the user has an early access NFT, generate a mint signature

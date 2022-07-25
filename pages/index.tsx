@@ -19,7 +19,7 @@ const Home: NextPage = () => {
   const [, switchNetwork] = useNetwork();
 
   const signatureDrop = useSignatureDrop(
-    "0xb90a18e9270d44F6e7D06e5Eac32C6Ea881CCaB2"
+    "0x2A8747F697d241d011d384356134CC3aB0B38B97"
   );
 
   async function claim() {
@@ -85,7 +85,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       {/* Top Section */}
-      <h1 className={styles.h1}>Signature Drop</h1>
+      <h1 className={styles.h1}>Extraterrestrials</h1>
 
       <p className={styles.describe}>
         In this example, users who own one of our{" "}
